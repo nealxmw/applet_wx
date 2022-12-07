@@ -1,0 +1,8 @@
+<view class="container">
+  <image class="logo" src="/images/logo.png"></image>
+  <text class="name">尼尔</text>
+  <text class="name">开发者信息</text>
+  <text class="name">_neal</text>
+  <text class="name">GitHub: @nealxmw</text>
+  <text class="name">个人主页: https://github.com/nealxmw</text>
+</view>

@@ -1,0 +1,30 @@
+<view class="container">
+  <view class="userinfo">
+    <button class="avatar" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+      <image class="userinfo-avatar" src="{{avatarUrl}}"></image>
+    </button>
+    <input type="nickname" class="userinfo-nickname" model:value="{{nickname}}" bind:change="nameChange" placeholder="请输入昵称" />
+  </view>
+  <view class="list-container">
+    <view class="list-item" bindtap="showLogin">
+      <text class="list-name">登录</text>
+      <image class="list-icon" src="/images/chevron.png"></image>
+    </view>
+    <view class="list-item" bindtap="showPrivacy">
+      <text class="list-name">隐私政策</text>
+      <image class="list-icon" src="/images/chevron.png"></image>
+    </view>
+    <view class="list-item" bindtap="showUser">
+      <text class="list-name">用户协议</text>
+      <image class="list-icon" src="/images/chevron.png"></image>
+    </view>
+    <view class="list-item" bindtap="showFeedback">
+      <text class="list-name">意见反馈</text>
+      <image class="list-icon" src="/images/chevron.png"></image>
+    </view>
+    <view class="list-item">
+      <text class="list-name">当前版本</text>
+      <text class="list-icon list-text">0.0.1</text>
+    </view>
+  </view>
+</view>
